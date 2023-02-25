@@ -1,0 +1,26 @@
+{
+  "^\UF72B"  = "moveToEndOfDocument:";                         /* Ctrl-End */
+  "^$\UF72B" = "moveToEndOfDocumentAndModifySelection:";       /* Ctrl + Shift + End */
+  "^\UF729"  = "moveToBeginningOfDocument:";                   /* Ctrl  + Home  */
+  "^$\UF729" = "moveToBeginningOfDocumentAndModifySelection:"; /* Shift + Ctrl  + Home */
+  "\UF729"   = "moveToBeginningOfLine:";                       /* Home         */
+  "$\UF729"  = "moveToBeginningOfLineAndModifySelection:";     /* Shift + Home */
+  "\UF72B"   = "moveToEndOfLine:";                             /* End          */
+  "$\UF72B"  = "moveToEndOfLineAndModifySelection:";           /* Shift + End  */
+  "\UF72C"   = "pageUp:";                                      /* PageUp       */
+  "\UF72D"   = "pageDown:";                                    /* PageDown     */
+  "^\U007F"  = "deleteWordBackward:";                          /* Ctrl  + Backspace */
+  "^c"       = "copy:";                                        /* Ctrl  + C */
+  "^v"       = "paste:";                                       /* Ctrl  + V */
+  "^x"       = "cut:";                                         /* Ctrl  + X */
+  "^z"       = "undo:";                                        /* Ctrl  + Z */
+  "^с"       = "copy:";                                        /* Ctrl  + C in Russian keyboard layout */
+  "^м"       = "paste:";                                       /* Ctrl  + V in Russian keyboard layout */
+  "^ч"       = "cut:";                                         /* Ctrl  + X in Russian keyboard layout */
+  "^я"       = "undo:";                                        /* Ctrl  + Z in Russian keyboard layout */
+  
+  "^\UF702" = moveWordLeft:;
+  "^\UF703" = moveWordRight:;
+  "^$\UF702" = moveWordLeftAndModifySelection:;
+  "^$\UF703" = moveWordRightAndModifySelection:;
+}
